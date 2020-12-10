@@ -1,0 +1,46 @@
+.nav {
+    overflow: auto;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.logo {
+    background-color: purple;
+    float: left;
+    padding: 5px;
+    border-radius: 50px 50px 50px 50px;
+    width: 34px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 7px;
+    margin-left: 15px;
+}
+
+.list {
+    float: right;
+    margin: 6px;
+    margin-top: 10px;
+}
+
+.selector {
+    list-style: none;
+    float: left;
+    margin: 0px 7px;
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+.sel-text {
+    text-decoration: none;
+    color: rgb(11, 51, 184);
+}
+
+.sel-text:hover {
+    color: #3fdaa6;
+}

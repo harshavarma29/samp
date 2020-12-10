@@ -1,0 +1,122 @@
+.about {
+    width: 93%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    margin: 20px 0px;
+    margin-bottom: 120px;
+    background-color: white;
+    overflow: auto;
+}
+
+.left, .right {
+    float: left;
+}
+
+.left {
+    width: 22%;
+}
+
+.right {
+    width: 77%;
+    height: 80%;
+    border-left: 1px grey solid;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search {
+    padding: 5px;
+    border-radius: 3px;
+    margin: 8px 3px 3px 15px;
+    float: left;
+    outline: none;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.project-card {
+    width: 485px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.project-card::-webkit-scrollbar {
+    display: none;
+}
+
+.image-block {
+    height: 200px;
+    width: 485px;
+    overflow: auto;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.block-title {
+    float: left;
+    margin: 33px 3px 5px 15px;
+    font-size: 30px;
+    border-bottom: 1px grey solid;
+    padding: 0px 10px 8px 0px;
+    color: rgb(11, 51, 184);
+}
+
+.container {
+    overflow: auto;
+    background: rgb(243,248,247);
+    background: linear-gradient(0deg, rgba(243,248,247,1) 0%, rgba(125,167,255,1) 100%);
+}
+
+.project-name, .access {
+    float: left;
+}
+
+.project-name {
+    width: 65%;
+}
+
+.pro-name {
+    float: left;
+    margin: 8px;
+    font-size: 25px;
+    color: rgb(11, 51, 184);
+}
+
+.access {
+    width: 30%;
+}
+
+.open {
+    float: right;
+    margin: 8px;
+    font-size: 18px;
+    background-color: #3fdaa6;
+    padding: 3px 5px;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.open:hover {
+    cursor: pointer;
+}
+
+.description {
+    margin: 5px 8px;
+    font-size: 16px;
+    text-align: left;
+    color: rgb(67, 67, 231);
+    letter-spacing: 0.5px;
+}
